@@ -3,8 +3,14 @@
     src: url(fonts/Poppins-Regular.otf);
 }
 
-* {
-    font-family: Poppins;
+@font-face {
+    font-family: edosz;
+    src: url(fonts/edosz.ttf);
+}
+
+div.projeto {
+    font-family: edosz;
+    font-size: 50px;
 }
 
 main {
@@ -17,6 +23,7 @@ main {
 
 body {
     background-color: rgb(227, 208, 245);
+    font-family: Poppins;
 }
 
 h1 {
@@ -30,6 +37,14 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
 p {
     font-size: 14px;
 }
@@ -38,9 +53,13 @@ a {
     color: black;
 }
 
+
+
+
 div.container1 {
     text-align: center;
 }
+
 
 .menuhorizontal {
     margin: 0;
