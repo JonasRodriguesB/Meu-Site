@@ -48,6 +48,8 @@ h3 {
 
 h4 {
     margin-top: -1px;
+    margin-bottom: -1px;
+    font-weight: 900;
 }
 
 .titulo_projeto {
