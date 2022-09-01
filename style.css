@@ -46,6 +46,10 @@ h3 {
     margin: auto;
 }
 
+h4 {
+    margin-top: -1px;
+}
+
 .titulo_projeto {
     margin-top: -5px;
     margin-bottom: -5px;
@@ -129,6 +133,11 @@ h3 {
 
 .projeto p {
     font-size: 14px;
+}
+
+.logo-projeto {
+    display: block;
+    margin: 0px auto;
 }
 
 footer {
