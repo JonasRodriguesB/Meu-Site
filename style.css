@@ -20,6 +20,7 @@ main {
     padding: 30px;
     padding-bottom: 1px;
     box-shadow: 3px 3px 5px black;
+    font-size: 14px;
 }
 
 body {
@@ -39,8 +40,15 @@ h2 {
     text-align: center;
 }
 
-p {
-    font-size: 14px;
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+}
+
+.titulo_projeto {
+    margin-top: -5px;
+    margin-bottom: -5px;
 }
 
 #img01{
@@ -95,7 +103,7 @@ p {
     transform: translate(-100%, -100%);
 }
 
-div.container1 {
+.container1 {
     text-align: center;
     
 }
@@ -105,6 +113,22 @@ div.container1 {
     font-size: 18px;
     margin-top: 1px;
     margin-bottom: 5px;
+}
+
+.container_img_pag {
+    height: 0px;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-100%, -100%);
+}
+
+#home-btn {
+    margin-bottom: -15px;
+}
+
+.projeto p {
+    font-size: 14px;
 }
 
 footer {
