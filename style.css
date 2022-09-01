@@ -35,22 +35,13 @@ h1 {
 
 h2 {
     margin: auto;
-    text-align: center;
-}
-
-h3, h4 {
+    margin-top: -12px;
     text-align: center;
 }
 
 p {
     font-size: 14px;
 }
-
-/*
-a {
-    color: black;
-}
-*/
 
 #img01{
     display: inline-block;
@@ -70,18 +61,30 @@ a {
 
 #img01 p {
     position: absolute;
-    top: 25px;
+    top: 91px;
     left: 50px;
     font-size: 20px;
-    color: black;
+    color: white;
+    font-weight: 900;
+    text-shadow: 
+               -1px -1px 1px #000000, 
+               -1px 1px 1px #000000,                    
+                1px -1px 5px #000000,                  
+                1px 0px 5px #000000;
 }
 
 #img02 p {
     position: absolute;
-    top: 25px;
+    top: 91px;
     left: 55px;
     font-size: 20px;
-    color: black;
+    color: white;
+    font-weight: 900;
+    text-shadow: 
+               -1px -1px 1px #000000, 
+               -1px 1px 1px #000000,                    
+                1px -1px 5px #000000,                  
+                1px 0px 5px #000000;
 }
 
 .container_img {
@@ -94,6 +97,14 @@ a {
 
 div.container1 {
     text-align: center;
+    
+}
+
+.container1 p {
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 1px;
+    margin-bottom: 5px;
 }
 
 footer {
