@@ -3,13 +3,6 @@
     src: url(fonts/Poppins-Regular.otf);
 }
 
-div.release {
-    font-size: 12px;
-    margin-top: -10px;
-    text-align: right;
-}
-
-
 
 main {
     background-color: whitesmoke;
@@ -49,6 +42,11 @@ h4 {
     margin-bottom: -1px;
     font-weight: 900;
     text-align: center;
+}
+
+.header {
+    margin-top: -15px;
+    margin-bottom: -10px;
 }
 
 .titulo_projeto {
@@ -120,6 +118,10 @@ h4 {
     margin-bottom: 5px;
 }
 
+.container1 img {
+    margin-right: 5px;
+}
+
 .container_img_pag {
     height: 0px;
     position: absolute;
@@ -148,6 +150,12 @@ h4 {
 .logo-projeto {
     display: block;
     margin: 0px auto;
+}
+
+div.release {
+    font-size: 12px;
+    margin-top: -10px;
+    text-align: right;
 }
 
 footer {
