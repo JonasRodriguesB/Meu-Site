@@ -17,20 +17,46 @@
     <hr>
 
     <!--BLOCO CORPO-->
-    <img class="logo-projeto" src="images/hangman-game-logo.png" alt="hangman-game-logo">
-    <h3 class="titulo_projeto">Jogo da Forca</h3>
+    <img class="logo-projeto" src="images/django-comanda-online-logo.png" alt="comanda-online logo">
+    <h3 class="titulo_projeto">Comanda Online</h3>
     <hr>
     <h4>DESCRIÇÃO</h4>
-    <p class="descricao">Clássico Jogo da Forca com contador de pontuação totalmente em português. Ao início de cada rodada, é selecionada uma palavra aleatória de um banco de dados com mais de 24 mil palavras em português.</p>
-    
-    <p>
-    <a target="_blank" href="https://github.com/JonasRodriguesB/Jogo-da-Forca/blob/main/jogo_da_forca.py">➝ Código em Python</a><br></p>
+    <p class="descricao">Este é meu primeiro projeto em Django e a meu objetivo com esse projeto foi realizado um CRUD completo e poder ver funcionar de forma dinâmica a integração do front-end com o banco de dados.</p>
+
+    <details>
+        <summary>Imagem da Página do Projeto</summary>
+        <img src="images/django/comanda-online/004.png" alt="exemplo 4">
+    </details>
+
+    <p class="descricao">O projeto consiste em uma comanda online, como o próprio nome sugere, onde os garçons poderiam, utilizando um tablet, registrar os pedidos dos clientes e, uma vez criada a comanda, ela poderia ser visualizada pela equipe da cozinha do restaurante. A equipe receberia a comanda contendo os pedidos, a quantidade e o horário em que os pedidos foram registrados. Os pedidos estão organizados por ordem cronológica, do mais antigo pro mais novo, para que possa haver uma hierarquia de prioridade baseada no tempo. Uma vez que o pedido estivesse pronto para ser entregue, a cozinha liberava e poderia através da aplicação confirmar que o pedido está pronto, apertando no botão verde no canto inferior direito do pedido.
+    </p>
+
+    <img src="images/django/comanda-online/001.png" alt="exemplo 1">
+
+    <p class="descricao">Para que os pedidos fossem apresentados no front-end foi utilizado um for loop na página HTML que resgata os registros no banco de dados e apresenta-os, independente de quantos haverem. Segue abaixo uma imagem demonstrando como ficou o código.</p>
+
+    <details>
+        <summary>Clique Aqui</summary>
+        <img src="images/django/comanda-online/002.png" width="100%" alt="exemplo 2">
+    </details>
+
+    <p class="descricao">Por fim a tabela no banco de dados (Models do Django) foi criado pensando que ao menos um produto deve ser inserido (caso contrário, não faria sentido criar um registro novo) e também sendo obrigatório o registro do número da mesa onde o pedido foi solicitado, para que ele possa ser endereçado corretamente quando o pedido estiver pronto. Segue abaixo uma imagem demonstrando como ficou o Models.</p>
+
+    <details>
+        <summary>Clique Aqui</summary>
+        <img src="images/django/comanda-online/003.png" width="100%" alt="exemplo 3">
+    </details>
+    <br>
+    <details>
+        <summary>Detalhes Técnicos</summary>
+        <p>Python 3.10 <br> Django 4.1.6 <br>Visual Studio Code 1.75.0</p>
+    </details>
     
     <br>
     <hr>
 
     <div class="release">
-        <p>Data de Publicação: 29/11/2022</p>
+        <p>Data de Publicação: 07/02/2023</p>
     </div>
     <br>
     

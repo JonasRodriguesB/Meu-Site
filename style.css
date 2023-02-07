@@ -159,3 +159,9 @@ div.release p {
 .botoes_do_portfolio {
     text-align: center;
 }
+
+/* OUTRAS CONFIGURAÇÕES */
+
+summary {
+    cursor: pointer;
+}
