@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonas Rodrigues</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+    <!--CABEÇALHO-->
+    <div class="header">
+        <a href="index.html"><img src="images/header.png" alt="header image"></a>
+    </div>
+    <hr>
+
+    <!--BLOCO CORPO-->
+    <img class="logo-projeto" src="images/django-cotacao-moeda-logo.png" alt="cotacao-moeda logo">
+    <h3 class="titulo_projeto">Cotação de Moeda</h3>
+    <hr>
+    <h4>DESCRIÇÃO</h4>
+    <p class="descricao"> Este é meu segundo projeto em Django e agora meu objetivo foi conseguir realizar a integração da aplicação em Django com uma API externa, podendo manipular os dados em JSON e apresentá-los ao usuário. O projeto apresentado aqui é a versão original dele, eu ainda vou adicionar outras funcionalidades que foram previstas quando eu desenhei o projeto.</p>
+
+    <p class="descricao">O projeto consiste em uma página de visualização em tempo real da cotação de diferentes moedas. A cotação de todas moedas é convertida para o R$ (BRL) e selecionei apenas 3 moedas para o projeto inicial. A imagem a seguir, da página inicial, mostra a cotação do dólar, do euro e do bitcoin. Os valores são apresentados em três blocos, sendo o bloco maior referente ao valor do dólar e os dois blocos menores referentes aos valores do euro (esquerda) e do bitcoin (direita). 
+    </p>
+
+    <details>
+        <summary>Imagem da Página do Projeto</summary>
+        <a href="https://jonasrodriguesb.github.io/Meu-Site/images/django/cotacao-moeda/001.png" target="_blank"><img src="images/django/cotacao-moeda/001.png" width="100%" alt="exemplo 1"></a>
+    </details>
+
+    <p class="descricao">Abaixo é possível ver o horário em que foi realizada a última atualização da API e a data, assim a pessoa consegue ter certeza de quão atualizado está o valor. Ainda acrescentei um anel de carregamento para que o usuário possa visualizar quando a página deve ser carregada. A ideia do anel era compôr uma funcionalidade de auto-carregamento da página, mas eu não fiquei satisfeito com o resultado e essa funcionalidade deve ser implementada no futuro. O anel ficou, porque agora ele serve como um contador simples de quão atualizado estão os valores.</p>
+
+    <p class="descricao">A API fornece dados atualizados a cada 30~40 segundos, então configurei o anel de carregamento para um período de um minuto. Quando o anel se completa, é apresentada uma informação na página do usuário sugerindo que ele atualize a página para que os valores possam ser atualizados também, assim o usuário pode carregar a página apenas quando quiser ver os valores atualizados.</p>
+
+    <details>
+        <summary>Anel de Carregamento Completo</summary>
+        <a href="https://jonasrodriguesb.github.io/Meu-Site/images/django/cotacao-moeda/002.png"><img src="images/django/cotacao-moeda/002.png" width="100%" alt="exemplo 2"></a>
+        
+    </details>
+    <br>
+    <details>
+        <summary>Detalhes Técnicos</summary>
+        <p>Python 3.10 <br> Django 4.1.6 <br>Visual Studio Code 1.75.0 <br> API: AwesomeAPI/Cotações de Moedas</p>
+    </details>
+    
+    <br>
+    <hr>
+
+    <div class="release">
+        <p>Data de Publicação: 13/02/2023</p>
+    </div>
+    <br>
+    
+    <!--BLOCO BOTÃO PROJETOS-->
+    <div id="img02">
+        <a href="portfolio.html">
+            <img class="box" src="images/projetos.png" alt="">
+            <p>PORTFÓLIO</p>
+        </a>
+    </div>
+
+    <br>
+    <br>
+    <hr>
+    
+    <!--BLOCO REDES SOCIAIS-->
+    <div class="container1">
+        <a href="https://www.linkedin.com/in/jonas-rodrigues-87261024a/" target="_blank"><img src="images/linkedin.png" alt="Linkedin"></a>
+        <a href="https://www.instagram.com/jonas.rodriguesb/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="https://github.com/JonasRodriguesB" target="_blank"><img src="images/github.png" alt="GitHub"></a>
+        <a href="mailto:jonasrodriguesdev@gmail.com" target="_blank"><img src="images/email.png" alt=""></a>
+    </div>
+    </main>
+</body>
+</html>
