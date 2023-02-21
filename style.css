@@ -160,6 +160,10 @@ div.release p {
     text-align: center;
 }
 
+.version-ul {
+    text-align: left;
+}
+
 /* OUTRAS CONFIGURAÇÕES */
 
 summary {
