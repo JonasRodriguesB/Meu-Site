@@ -60,7 +60,7 @@ h4 {
 #subtitulo {
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(216, 186, 243);
+    background-color: #BCB1DE;
     border-radius: 10px;
     width: 300px;
 }
@@ -121,21 +121,22 @@ h4 {
                 1px 0px 5px white;
 }
 
+/* BOTÃO DE REDE SOCIAL */
 .container1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 2px;
 }
 
-.container1 p {
+/* .container1 p {
     font-weight: 900;
     font-size: 18px;
     margin-top: 1px;
     margin-bottom: 5px;
-}
+} POSSO DELETAR ISSO? */ 
 
 .container1 img {
-    margin-right: 5px;
+    margin-right: 0.5vw;
 }
 
 .box:hover {
