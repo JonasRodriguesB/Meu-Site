@@ -98,13 +98,13 @@ h4 {
     top: 91px;
     left: 60px;
     font-size: 20px;
-    color: white;
+    color: black;
     font-weight: 900;
     text-shadow: 
-               -1px -1px 1px #000000, 
-               -1px 1px 1px #000000,                    
-                1px -1px 5px #000000,                  
-                1px 0px 5px #000000;
+               -1px -1px 1px white, 
+               -1px 1px 1px white,                    
+                1px -1px 5px white,                  
+                1px 0px 5px white;
 }
 
 #img02 p {
@@ -112,13 +112,13 @@ h4 {
     top: 91px;
     left: 50px;
     font-size: 20px;
-    color: white;
+    color: black;
     font-weight: 900;
     text-shadow: 
-               -1px -1px 1px #000000, 
-               -1px 1px 1px #000000,                    
-                1px -1px 5px #000000,                  
-                1px 0px 5px #000000;
+               -1px -1px 1px white, 
+               -1px 1px 1px white,                    
+                1px -1px 5px white,                  
+                1px 0px 5px white;
 }
 
 .container1 {
