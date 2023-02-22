@@ -56,6 +56,7 @@ h4 {
     font-weight: bolder;
 }
 
+/* SUBTITULO DE CADA PÁGINA */
 #subtitulo {
     margin-left: auto;
     margin-right: auto;
@@ -164,8 +165,64 @@ div.release p {
     text-align: left;
 }
 
+/* DIV COM AS CARDS */
+
+.project-cards {
+    width: 80%;
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* CARDS DENTRO DA DIV */
+
+.card {
+    background-color: rgb(227, 208, 245);
+    width: 8vw;
+    height: 23vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.card:hover {
+    background-color: rgb(216, 186, 243);
+    transition: background-color 0.5s ease;
+}
+
+.card-undone {
+    background-color: rgb(199, 199, 199);
+    width: 8vw;
+    height: 23vh;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* IMAGEM DA CARD */
+
+.card-img {
+    margin-top: 1vh;
+    width: 70%;
+}
+
+/* TÍTULO DO PROJETO NA CARD */
+.titulo-projeto-card {
+    font-size: 1em;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0vh;
+}
+
 /* OUTRAS CONFIGURAÇÕES */
 
 summary {
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
